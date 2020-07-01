@@ -25,6 +25,11 @@ python3 -m flask run
 python -m flask run
 ```
 
+### open the server
+```
+http://localhost:5000/
+```
+
 ## Screen shoot
 
 ![image](https://user-images.githubusercontent.com/43186742/86240493-a1637500-bba1-11ea-8473-999ec2e18ca6.png)
