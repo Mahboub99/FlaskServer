@@ -29,6 +29,11 @@ python -m flask run
 ```
 http://localhost:5000/
 ```
+### open the app page
+
+```
+frontend/index.html
+```
 
 ## Screen shoot
 
