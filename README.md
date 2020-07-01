@@ -22,7 +22,7 @@ pip install flask
 python3 -m flask run
 
 # Windows
-python3 -m flask run
+python -m flask run
 ```
 
 ## Screen shoot
