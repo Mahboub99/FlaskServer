@@ -1,6 +1,6 @@
 <h1 align= "center"> FlaskServer</h1>
 
-Simple Flask server which have Two blueprints that can add new Quark or get all quarks
+>Simple Flask server which have Two blueprints that can add new Quark or get all quarks
 
 <h2 align = "center"> How to run </h2>
 
