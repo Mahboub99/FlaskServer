@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aclonica"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="index.js"></script>
+    <title>Flask App</title>
+  </head>
+  <body>
+    <form class="myForm" onsubmit="submitForm(event)">
+      <h1 class="myTitle">add new Quark</h1>
+
+      <span class="mylabel">name</span>
+      <input type="text" id="name" class="myInput" />
+
+      <span class="mylabel">charge</span>
+      <input type="text" id="charge" class="myInput" />
+
+      <input type="submit" value="submit" class="submit" />
+    </form>
+
+    <div class="myForm">
+      <button class="submit" onclick="getData(event)">GET</button>
+      <div id="response" class="response"></div>
+    </div>
+  </body>
+</html>
